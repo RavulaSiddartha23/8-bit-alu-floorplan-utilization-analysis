@@ -1,0 +1,69 @@
+PROJECT: Impact of Floorplan Utilization on Timing,
+Congestion and PPA Using OpenROAD
+
+DESIGN: 8-bit Combinational ALU
+TECHNOLOGY: Nangate45
+STANDARD CELLS: 142
+CELL AREA: 149.226 um^2
+
+30% REQUESTED UTILIZATION
+Actual utilization: 32%
+Core area: 466.830 um^2
+Original HPWL: 921.74 um
+Legalized HPWL: 1008.9 um
+Timing slack: +7.50 ns
+Total wire length: 1196 um
+Total vias: 1045
+DRC violations: 0
+
+50% REQUESTED UTILIZATION
+Actual utilization: 56%
+Core area: 264.803 um^2
+Original HPWL: 876.7 um
+Legalized HPWL: 1027.5 um
+Timing slack: +7.50 ns
+Total wire length: 1210 um
+Total vias: 1025
+DRC violations: 0
+
+70% REQUESTED UTILIZATION
+Actual utilization: 73%
+Core area: 203.490 um^2
+Original HPWL: 866.0 um
+Legalized HPWL: 1018.7 um
+Timing slack: +7.50 ns
+Total wire length: 1210 um
+Total vias: 1091
+DRC violations: 0
+
+GLOBAL ROUTING CONGESTION COMPARISON
+
+30% REQUESTED UTILIZATION
+Actual utilization: 32%
+Routing resource usage: 4.24%
+Metal2 usage: 12.12%
+Metal3 usage: 6.93%
+Congestion overflow: 0
+Global-route wirelength: 1866 um
+Routed nets: 161
+Global-route vias: 855
+
+50% REQUESTED UTILIZATION
+Actual utilization: 56%
+Routing resource usage: 6.40%
+Metal2 usage: 15.30%
+Metal3 usage: 12.63%
+Congestion overflow: 0
+Global-route wirelength: 1935 um
+Routed nets: 161
+Global-route vias: 864
+
+70% REQUESTED UTILIZATION
+Actual utilization: 73%
+Routing resource usage: 8.16%
+Metal2 usage: 26.47%
+Metal3 usage: 11.18%
+Congestion overflow: 0
+Global-route wirelength: 1872 um
+Routed nets: 161
+Global-route vias: 812

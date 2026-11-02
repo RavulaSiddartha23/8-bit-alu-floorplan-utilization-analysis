@@ -1,0 +1,10 @@
+# Simulation outputs
+*.vcd
+*.vvp
+
+# OpenROAD temporary databases
+*.odb
+*.def
+
+# Temporary logs
+*.log

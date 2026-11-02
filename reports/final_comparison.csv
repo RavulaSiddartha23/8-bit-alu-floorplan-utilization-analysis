@@ -1,0 +1,4 @@
+Requested Utilization,Actual Utilization,Core Area (um2),Original HPWL (um),Legalized HPWL (um),Timing Slack (ns),Routing Resource Usage (%),Global Route Wirelength (um),Global Route Vias,Detailed Route Wirelength (um),Detailed Route Vias,DRC Violations
+30%,32%,466.830,921.74,1008.9,7.50,4.24,1866,855,1196,1045,0
+50%,56%,264.803,876.7,1027.5,7.50,6.40,1935,864,1210,1025,0
+70%,73%,203.490,866.0,1018.7,7.50,8.16,1872,812,1210,1091,0

@@ -1,0 +1,44 @@
+30% REQUESTED UTILIZATION
+Actual utilization: 32%
+
+GLOBAL ROUTING CONGESTION
+Metal2: Resource 1700, Demand 206, Usage 12.12%
+Metal3: Resource 2310, Demand 160, Usage 6.93%
+Total: Resource 8640, Demand 366, Usage 4.24%
+
+Maximum horizontal congestion: 0
+Maximum vertical congestion: 0
+Total congestion: 0
+Total global-route wirelength: 1866 um
+Routed nets: 161
+Final vias: 855
+
+50% REQUESTED UTILIZATION
+Actual utilization: 56%
+
+GLOBAL ROUTING CONGESTION
+Metal2: Resource 1144, Demand 175, Usage 15.30%
+Metal3: Resource 1560, Demand 197, Usage 12.63%
+Total: Resource 5816, Demand 372, Usage 6.40%
+
+Maximum horizontal congestion: 0
+Maximum vertical congestion: 0
+Total congestion: 0
+Total global-route wirelength: 1935 um
+Routed nets: 161
+Final vias: 864
+
+70% REQUESTED UTILIZATION
+Actual utilization: 73%
+
+GLOBAL ROUTING CONGESTION
+Metal2: Resource 903, Demand 239, Usage 26.47%
+Metal3: Resource 1225, Demand 137, Usage 11.18%
+Total: Resource 4606, Demand 376, Usage 8.16%
+
+Maximum horizontal congestion: 0
+Maximum vertical congestion: 0
+Total congestion: 0
+Total global-route wirelength: 1872 um
+Routed nets: 161
+Final vias: 812

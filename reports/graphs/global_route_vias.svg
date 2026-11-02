@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="520" viewBox="0 0 850 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="425" y="40" text-anchor="middle" font-size="24" font-weight="bold">Global Routing Via Count</text>
+<line x1="100" y1="80.0" x2="790" y2="80.0" stroke="#cccccc"/>
+<text x="85" y="85.0" text-anchor="end" font-size="13">933.12</text>
+<line x1="100" y1="165.0" x2="790" y2="165.0" stroke="#cccccc"/>
+<text x="85" y="170.0" text-anchor="end" font-size="13">885.56</text>
+<line x1="100" y1="250.0" x2="790" y2="250.0" stroke="#cccccc"/>
+<text x="85" y="255.0" text-anchor="end" font-size="13">838.00</text>
+<line x1="100" y1="335.0" x2="790" y2="335.0" stroke="#cccccc"/>
+<text x="85" y="340.0" text-anchor="end" font-size="13">790.44</text>
+<line x1="100" y1="420.0" x2="790" y2="420.0" stroke="#cccccc"/>
+<text x="85" y="425.0" text-anchor="end" font-size="13">742.88</text>
+<polyline points="100.0,219.61732548359967 445.0,203.5323801513877 790.0,296.4676198486123" fill="none" stroke="#2563eb" stroke-width="3"/>
+<circle cx="100.0" cy="219.61732548359967" r="7" fill="#2563eb"/>
+<text x="100.0" y="204.61732548359967" text-anchor="middle" font-size="15">855</text>
+<text x="100.0" y="450" text-anchor="middle" font-size="15">32%</text>
+<circle cx="445.0" cy="203.5323801513877" r="7" fill="#2563eb"/>
+<text x="445.0" y="188.5323801513877" text-anchor="middle" font-size="15">864</text>
+<text x="445.0" y="450" text-anchor="middle" font-size="15">56%</text>
+<circle cx="790.0" cy="296.4676198486123" r="7" fill="#2563eb"/>
+<text x="790.0" y="281.4676198486123" text-anchor="middle" font-size="15">812</text>
+<text x="790.0" y="450" text-anchor="middle" font-size="15">73%</text>
+<text x="425" y="490" text-anchor="middle" font-size="17">Actual floorplan utilization</text>
+<text transform="translate(25,250) rotate(-90)" text-anchor="middle" font-size="17">Number of vias</text>
+</svg>
