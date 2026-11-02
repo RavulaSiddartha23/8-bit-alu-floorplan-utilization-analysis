@@ -1,2 +1,124 @@
-# 8-bit-alu-floorplan-utilization-analysis
-Independent 8-bit ALU physical-design project comparing 30%, 50% and 70% floorplan utilization to study their impact on core area, timing, placement, routing congestion and PPA.
+# 8-Bit ALU Floorplan Utilization Analysis
+
+## Project Overview
+
+An independent VLSI Physical Design project investigating the impact of floorplan utilization on the physical implementation of an 8-bit Arithmetic Logic Unit (ALU).
+
+Three floorplan utilization configurations were evaluated using the Nangate45 standard-cell library to study their effects on core area, timing, placement, routing resource usage, wirelength, via count and design rule checks (DRC).
+
+## Project Objectives
+
+- Design and functionally verify an 8-bit ALU using Verilog.
+- Perform logic synthesis and standard-cell technology mapping.
+- Implement the design through the physical-design flow.
+- Evaluate three floorplan utilization configurations.
+- Analyze and compare core area, timing, placement and routing metrics.
+- Study the relationship between floorplan utilization and routing resource usage.
+
+## ALU Operations
+
+The 8-bit ALU supports eight operations:
+
+- Addition
+- Subtraction
+- Bitwise AND
+- Bitwise OR
+- Bitwise XOR
+- Bitwise NOT
+- Left shift
+- Right shift
+
+## Physical Design Flow
+
+1. RTL Design
+2. Functional Simulation
+3. Logic Synthesis
+4. Standard-Cell Technology Mapping
+5. Floorplanning
+6. I/O Pin Placement
+7. Global Placement
+8. Detailed Placement and Legalization
+9. Global Routing
+10. Detailed Routing
+11. Timing and DRC Analysis
+
+## Experimental Configurations
+
+Three requested floorplan utilization targets were evaluated.
+
+| Configuration | Requested Utilization | Actual Utilization |
+|---|---:|---:|
+| 1 | 30% | 32% |
+| 2 | 50% | 56% |
+| 3 | 70% | 73% |
+
+## Key Results
+
+| Metric | 32% | 56% | 73% |
+|---|---:|---:|---:|
+| Core Area (µm²) | 466.830 | 264.803 | 203.490 |
+| Routing Resource Usage (%) | 4.24 | 6.40 | 8.16 |
+| Timing Slack (ns) | +7.50 | +7.50 | +7.50 |
+| Detailed Route Wirelength (µm) | 1196 | 1210 | 1210 |
+| Detailed Route Vias | 1045 | 1025 | 1091 |
+| Final DRC Violations | 0 | 0 | 0 |
+
+*Timing results are based on global-routing estimated parasitics.*
+
+## Key Observations
+
+- Increasing floorplan utilization reduced the core area.
+- Routing resource usage increased from 4.24% to 8.16% across the evaluated configurations.
+- All three configurations achieved positive timing slack of 7.50 ns.
+- All three detailed-routing runs reported zero final DRC violations.
+- Global-routing wirelength and detailed-routing via counts showed non-monotonic variation across the configurations.
+- All three configurations completed the detailed-routing stage successfully.
+
+## Tools and Technologies
+
+- Verilog HDL
+- Icarus Verilog
+- Yosys
+- OpenROAD
+- Nangate45 Standard-Cell Library
+- Tcl
+- Ubuntu Linux
+
+## Repository Structure
+
+```text
+8-bit-alu-floorplan-utilization-analysis/
+├── README.md
+├── .gitignore
+├── rtl/
+│   └── alu.v
+├── testbench/
+│   └── alu_tb.v
+├── synthesis/
+│   ├── alu_mapped.v
+│   ├── alu_mapped.json
+│   └── alu_schematic.png
+├── physical_design/
+│   ├── alu.sdc
+│   └── scripts/
+├── reports/
+│   ├── final_comparison.csv
+│   ├── experiment_summary.txt
+│   ├── congestion_results.txt
+│   └── graphs/
+├── screenshots/
+└── docs/
+    └── project_report.pdf
+```
+
+## Project Scope and Limitations
+
+This project covers RTL simulation, logic synthesis, standard-cell mapping, floorplanning, placement, global routing, detailed routing, timing analysis and DRC evaluation.
+
+Final GDSII stream-out and foundry sign-off were not performed as part of this project.
+
+## Author
+
+**R. Siddartha**
+
+Independent Personal Project
